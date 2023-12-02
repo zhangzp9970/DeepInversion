@@ -19,7 +19,7 @@ pip install torch==1.4.0 torchvision==0.5.0 numpy Pillow
 Additionally install APEX library for FP16 support (2x less memory and 2x faster): [Installing NVIDIA APEX](https://github.com/NVIDIA/apex#quick-start)
 
 For CIFAR10 we will first need to train a teacher model, for comparison reasons we choose ResNet34 from DAFL method.
-Instruction for training teacher model can be found [here](https://github.com/huawei-noah/Data-Efficient-Model-Compression/tree/master/DAFL).
+Instruction for training teacher model can be found [here](https://github.com/huawei-noah/Efficient-Computing/tree/master/Data-Efficient-Model-Compression/DAFL).
 Our model achieves 95.42% top1 accuracy on validation set.
 
 Running inversion with parameters from the paper:
